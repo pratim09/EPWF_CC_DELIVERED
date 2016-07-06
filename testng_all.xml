@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CompleteSuite" parallel="methods" thread-count="1">
+	<test name="CCTest">
+		<parameter name="browser" value="FireFox" />
+		<classes>
+			<class name="TestCases.ACH.VerifyACHConvenienceFeeInAllPages" />
+			<class name="TestCases.ACH.DeleteExistingInstrumentACH" />
+			<class name="TestCases.ACH.CheckTermsAndCondnDtlsInACHPymt" />
+			<class name="TestCases.ACH.VerifyCancellationInfoACH" />
+			<class name="TestCases.ACH.VerifyAmountAndDateFieldsACH" />
+			<class name="TestCases.CreditCard.NoKeepLinkCC" />
+			<class name="TestCases.CreditCard.CheckTermsAndCondnDtlsForCreditCard" />
+			<class name="TestCases.CreditCard.EditZipCodeCC" />
+			<class name="TestCases.CreditCard.VerifyPaymentWithoutSaveCheckCC" />
+			<class name="TestCases.CreditCard.ModalPopUpCancelCC" />
+			<class name="TestCases.CreditCard.CCAutomationE2E" />
+			<class name="TestCases.CreditCard.EditPastDateCC" />
+			<class name="TestCases.CreditCard.VerifyPaymentWithSaveCheckCC" />
+			<class name="TestCases.CreditCard.VerifyCancellationInfoCC" />
+			<class name="TestCases.CreditCard.VerifyAmountAndDateFieldsCC" />
+			<class name="TestCases.CreditCard.EditFutureExpirationDateCC" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

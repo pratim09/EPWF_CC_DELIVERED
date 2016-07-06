@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestCases.CreditCard.EditZipCodeCC">
+        <methods>
+          <include name="editZip"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.EditZipCodeCC -->
+      <class name="TestCases.CreditCard.EditFutureExpirationDateCC">
+        <methods>
+          <include name="testEditFutureExpirationDateCC"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.EditFutureExpirationDateCC -->
+      <class name="TestCases.CreditCard.EditPastDateCC">
+        <methods>
+          <include name="pastDate"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.EditPastDateCC -->
+      <class name="TestCases.CreditCard.VerifyPaymentWithoutSaveCheckCC">
+        <methods>
+          <include name="testVerifyPaymentWithoutSaveCheckCC"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.VerifyPaymentWithoutSaveCheckCC -->
+      <class name="TestCases.CreditCard.VerifyPaymentWithSaveCheckCC">
+        <methods>
+          <include name="VerifyPaymentWithSave"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.VerifyPaymentWithSaveCheckCC -->
+      <class name="TestCases.CreditCard.CheckTermsAndCondnDtlsForCreditCard">
+        <methods>
+          <include name="testCheckTermsAndCondnDtlsForCreditCard"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.CheckTermsAndCondnDtlsForCreditCard -->
+      <class name="TestCases.CreditCard.VerifyAmountAndDateFieldsCC">
+        <methods>
+          <include name="testVerifyAmountAndDateFieldsCC"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.VerifyAmountAndDateFieldsCC -->
+      <class name="TestCases.CreditCard.VerifyCancellationInfoCC">
+        <methods>
+          <include name="testVerifyCancellationInfoCC"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.VerifyCancellationInfoCC -->
+      <class name="TestCases.CreditCard.CCAutomationE2E">
+        <methods>
+          <include name="testCCAutomationE2E"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.CCAutomationE2E -->
+      <class name="TestCases.CreditCard.ModalPopUpCancelCC">
+        <methods>
+          <include name="PopupCancel"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.ModalPopUpCancelCC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

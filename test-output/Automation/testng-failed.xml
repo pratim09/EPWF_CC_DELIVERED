@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation]" parallel="tests">
+  <parameter name="browser" value="FF"/>
+  <test name="GC Test(failed)" parallel="tests">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="TestCases.CreditCard.VerifyPaymentWithoutSaveCheckCC">
+        <methods>
+          <include name="testVerifyPaymentWithoutSaveCheckCC"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.VerifyPaymentWithoutSaveCheckCC -->
+      <class name="TestCases.CreditCard.VerifyAmountAndDateFieldsCC">
+        <methods>
+          <include name="testVerifyAmountAndDateFieldsCC"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.VerifyAmountAndDateFieldsCC -->
+      <class name="TestCases.HandlingAccountPendingPopUp">
+        <methods>
+          <include name="testHandlingAccountPendingPopUp"/>
+        </methods>
+      </class> <!-- TestCases.HandlingAccountPendingPopUp -->
+      <class name="TestCases.CreditCard.EditFutureExpirationDateCC">
+        <methods>
+          <include name="testEditFutureExpirationDateCC"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.EditFutureExpirationDateCC -->
+      <class name="TestCases.CreditCard.EditPastDateCC">
+        <methods>
+          <include name="pastDate"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.EditPastDateCC -->
+      <class name="TestCases.CreditCard.CheckTermsAndCondnDtlsForCreditCard">
+        <methods>
+          <include name="testCheckTermsAndCondnDtlsForCreditCard"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.CheckTermsAndCondnDtlsForCreditCard -->
+      <class name="TestCases.CreditCard.EditZipCodeCC">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.EditZipCodeCC -->
+      <class name="TestCases.CCAutomationE2E">
+        <methods>
+          <include name="testCCAutomationE2E"/>
+        </methods>
+      </class> <!-- TestCases.CCAutomationE2E -->
+      <class name="TestCases.CreditCard.VerifyPaymentWithSaveCheckCC">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.VerifyPaymentWithSaveCheckCC -->
+      <class name="TestCases.CreditCard.NoKeepLinkCC">
+        <methods>
+          <include name="PopupCancel"/>
+          <include name="Precondition"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.NoKeepLinkCC -->
+      <class name="TestCases.CreditCard.ModalPopUpCancelCC">
+        <methods>
+          <include name="PopupCancel"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.ModalPopUpCancelCC -->
+      <class name="TestCases.CreditCard.VerifyCancellationInfoCC">
+        <methods>
+          <include name="testVerifyCancellationInfoCC"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.VerifyCancellationInfoCC -->
+      <class name="TestCases.ACH.VerifyACHConvenienceFeeInAllPages">
+        <methods>
+          <include name="Precondition"/>
+        </methods>
+      </class> <!-- TestCases.ACH.VerifyACHConvenienceFeeInAllPages -->
+    </classes>
+  </test> <!-- GC Test(failed) -->
+  <test name="FF Test(failed)" parallel="tests">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="TestCases.ACH.VerifyCancellationInfoACH">
+        <methods>
+          <include name="testVerifyCancellationInfoACH"/>
+        </methods>
+      </class> <!-- TestCases.ACH.VerifyCancellationInfoACH -->
+      <class name="TestCases.ACH.DeleteExistingInstrumentACH">
+        <methods>
+          <include name="ccTestCase7Execution"/>
+        </methods>
+      </class> <!-- TestCases.ACH.DeleteExistingInstrumentACH -->
+      <class name="TestCases.ACH.CheckTermsAndCondnDtlsInACHPymt">
+        <methods>
+          <include name="testCheckTermsAndCondnDtlsInACHPymt"/>
+        </methods>
+      </class> <!-- TestCases.ACH.CheckTermsAndCondnDtlsInACHPymt -->
+      <class name="TestCases.CreditCard.NoKeepLinkCC">
+        <methods>
+          <include name="Precondition"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.NoKeepLinkCC -->
+      <class name="TestCases.ACH.VerifyAmountAndDateFieldsACH">
+        <methods>
+          <include name="ccTestCase7Execution"/>
+        </methods>
+      </class> <!-- TestCases.ACH.VerifyAmountAndDateFieldsACH -->
+      <class name="TestCases.ACH.VerifyACHConvenienceFeeInAllPages">
+        <methods>
+          <include name="testVerifyACHConvenienceFeeInAllPages"/>
+          <include name="Precondition"/>
+        </methods>
+      </class> <!-- TestCases.ACH.VerifyACHConvenienceFeeInAllPages -->
+    </classes>
+  </test> <!-- FF Test(failed) -->
+</suite> <!-- Failed suite [Automation] -->

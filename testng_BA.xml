@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BASuite" parallel="methods" thread-count="1">
+
+	<test name="BATest">
+		<parameter name="browser" value="FireFox" />
+		<classes>
+			 <class name="TestCases.ACH.VerifyACHConvenienceFeeInAllPages" />
+			<class name="TestCases.ACH.DeleteExistingInstrumentACH" />
+			<class name="TestCases.ACH.CheckTermsAndCondnDtlsInACHPymt" />
+			<class name="TestCases.ACH.VerifyCancellationInfoACH" />
+			<class name="TestCases.ACH.VerifyAmountAndDateFieldsACH" />
+			<class name="TestCases.ACH.VerifyACHConvenienceFeeInAllPages" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

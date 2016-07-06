@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [BASuite]" parallel="methods">
+  <parameter name="browser" value="FireFox"/>
+  <test name="BATest(failed)" parallel="methods">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="TestCases.ACH.DeleteExistingInstrumentACH">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.ACH.DeleteExistingInstrumentACH -->
+      <class name="TestCases.ACH.VerifyAmountAndDateFieldsACH">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.ACH.VerifyAmountAndDateFieldsACH -->
+      <class name="TestCases.ACH.VerifyACHConvenienceFeeInAllPages">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testVerifyACHConvenienceFeeInAllPages"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.ACH.VerifyACHConvenienceFeeInAllPages -->
+      <class name="TestCases.ACH.VerifyCancellationInfoACH">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.ACH.VerifyCancellationInfoACH -->
+      <class name="TestCases.ACH.CheckTermsAndCondnDtlsInACHPymt">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.ACH.CheckTermsAndCondnDtlsInACHPymt -->
+    </classes>
+  </test> <!-- BATest(failed) -->
+</suite> <!-- Failed suite [BASuite] -->

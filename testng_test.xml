@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="methods"  thread-count="2">
+
+	<test name="Firefox_ACHTest">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="TestCases.CreditCard.sample" />
+		</classes>
+	</test>
+	
+</suite> <!-- Suite -->

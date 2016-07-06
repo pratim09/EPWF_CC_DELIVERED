@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [CCSUITE]]" parallel="methods">
+  <parameter name="browser" value="FireFox"/>
+  <test name="CCTest(failed)(failed)" parallel="methods">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="TestCases.CreditCard.CheckTermsAndCondnDtlsForCreditCard">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testCheckTermsAndCondnDtlsForCreditCard"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.CheckTermsAndCondnDtlsForCreditCard -->
+      <class name="TestCases.CreditCard.VerifyAmountAndDateFieldsCC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testVerifyAmountAndDateFieldsCC"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.VerifyAmountAndDateFieldsCC -->
+      <class name="TestCases.CreditCard.EditFutureExpirationDateCC">
+        <methods>
+          <include name="testEditFutureExpirationDateCC"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.EditFutureExpirationDateCC -->
+      <class name="TestCases.CreditCard.CCAutomationE2E">
+        <methods>
+          <include name="testCCAutomationE2E"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.CCAutomationE2E -->
+      <class name="TestCases.CreditCard.ModalPopUpCancelCC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.ModalPopUpCancelCC -->
+      <class name="TestCases.CreditCard.VerifyPaymentWithSaveCheckCC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyPaymentWithSave"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.VerifyPaymentWithSaveCheckCC -->
+      <class name="TestCases.CreditCard.VerifyPaymentWithoutSaveCheckCC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="testVerifyPaymentWithoutSaveCheckCC"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.VerifyPaymentWithoutSaveCheckCC -->
+    </classes>
+  </test> <!-- CCTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [CCSUITE]] -->

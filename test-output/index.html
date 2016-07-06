@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BASuite">
+              <span class="suite-name border-failed">BASuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BASuite">
+                    <span>C:\Users\ab14917\SELENIUM_WORKSPACE\CCAutomationUpdated\testng_BA.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BASuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BASuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BASuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BASuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BASuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BASuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BASuite" class="hide-methods failed suite-BASuite"> (hide)</a> <!-- hide-methods failed suite-BASuite -->
+                      <a href="#" panel-name="suite-BASuite" class="show-methods failed suite-BASuite"> (show)</a> <!-- show-methods failed suite-BASuite -->
+                    </span>
+                    <div class="method-list-content failed suite-BASuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BASuite" title="TestCases.ACH.VerifyACHConvenienceFeeInAllPages" hash-for-method="testVerifyACHConvenienceFeeInAllPages">testVerifyACHConvenienceFeeInAllPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BASuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BASuite" class="hide-methods passed suite-BASuite"> (hide)</a> <!-- hide-methods passed suite-BASuite -->
+                      <a href="#" panel-name="suite-BASuite" class="show-methods passed suite-BASuite"> (show)</a> <!-- show-methods passed suite-BASuite -->
+                    </span>
+                    <div class="method-list-content passed suite-BASuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BASuite" title="TestCases.ACH.VerifyAmountAndDateFieldsACH" hash-for-method="ccTestCase7Execution">ccTestCase7Execution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BASuite" title="TestCases.ACH.DeleteExistingInstrumentACH" hash-for-method="ccTestCase7Execution">ccTestCase7Execution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BASuite" title="TestCases.ACH.CheckTermsAndCondnDtlsInACHPymt" hash-for-method="testCheckTermsAndCondnDtlsInACHPymt">testCheckTermsAndCondnDtlsInACHPymt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BASuite" title="TestCases.ACH.VerifyCancellationInfoACH" hash-for-method="testVerifyCancellationInfoACH">testVerifyCancellationInfoACH</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BASuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BASuite" class="panel BASuite">
+          <div class="suite-BASuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.ACH.VerifyACHConvenienceFeeInAllPages</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyACHConvenienceFeeInAllPages">
+                  </a> <!-- testVerifyACHConvenienceFeeInAllPages -->
+                  <span class="method-name">testVerifyACHConvenienceFeeInAllPages</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;Convenience Fee*:&apos;]/following-sibling::td[2]/span[2]&quot;}
+Command duration or timeout: 34.94 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;XIN009OLAB14917&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_60-ea&apos;
+*** Element info: {Using=xpath, value=//td[text()=&apos;Convenience Fee*:&apos;]/following-sibling::td[2]/span[2]}
+Session ID: b52c5807-6a36-49cb-8aac-96ec49506bc2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.4.0}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.getText(Unknown Source)
+	at BusinessSpecific.Methods.verifyACHConvncFeeInVerifyInfoPage(Methods.java:1029)
+	at TestCases.ACH.VerifyACHConvenienceFeeInAllPages.testVerifyACHConvenienceFeeInAllPages(VerifyACHConvenienceFeeInAllPages.java:71)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[text()=&apos;Convenience Fee*:&apos;]/following-sibling::td[2]/span[2]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;XIN009OLAB14917&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_60-ea&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Windows/Temp/anonymous9165181864040271598webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/Temp/anonymous9165181864040271598webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BASuite-class-failed -->
+          <div class="suite-BASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.ACH.DeleteExistingInstrumentACH</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ccTestCase7Execution">
+                  </a> <!-- ccTestCase7Execution -->
+                  <span class="method-name">ccTestCase7Execution</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BASuite-class-passed -->
+          <div class="suite-BASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.ACH.VerifyAmountAndDateFieldsACH</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ccTestCase7Execution">
+                  </a> <!-- ccTestCase7Execution -->
+                  <span class="method-name">ccTestCase7Execution</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BASuite-class-passed -->
+          <div class="suite-BASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.ACH.VerifyCancellationInfoACH</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyCancellationInfoACH">
+                  </a> <!-- testVerifyCancellationInfoACH -->
+                  <span class="method-name">testVerifyCancellationInfoACH</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BASuite-class-passed -->
+          <div class="suite-BASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.ACH.CheckTermsAndCondnDtlsInACHPymt</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckTermsAndCondnDtlsInACHPymt">
+                  </a> <!-- testCheckTermsAndCondnDtlsInACHPymt -->
+                  <span class="method-name">testCheckTermsAndCondnDtlsInACHPymt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BASuite-class-passed -->
+        </div> <!-- panel BASuite -->
+        <div panel-name="test-xml-BASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ab14917\SELENIUM_WORKSPACE\CCAutomationUpdated\testng_BA.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;BASuite&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test name=&quot;BATest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;FireFox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.ACH.VerifyACHConvenienceFeeInAllPages&quot;/&gt;
+      &lt;class name=&quot;TestCases.ACH.DeleteExistingInstrumentACH&quot;/&gt;
+      &lt;class name=&quot;TestCases.ACH.CheckTermsAndCondnDtlsInACHPymt&quot;/&gt;
+      &lt;class name=&quot;TestCases.ACH.VerifyCancellationInfoACH&quot;/&gt;
+      &lt;class name=&quot;TestCases.ACH.VerifyAmountAndDateFieldsACH&quot;/&gt;
+      &lt;class name=&quot;TestCases.ACH.VerifyACHConvenienceFeeInAllPages&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BATest --&gt;
+&lt;/suite&gt; &lt;!-- BASuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BASuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BATest (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BASuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BASuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BASuite');
+function tableData_BASuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCheckTermsAndCondnDtlsInACHPymt')
+data.setCell(0, 2, 'TestCases.ACH.CheckTermsAndCondnDtlsInACHPymt')
+data.setCell(0, 3, 192249);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testVerifyACHConvenienceFeeInAllPages')
+data.setCell(1, 2, 'TestCases.ACH.VerifyACHConvenienceFeeInAllPages')
+data.setCell(1, 3, 167585);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testVerifyCancellationInfoACH')
+data.setCell(2, 2, 'TestCases.ACH.VerifyCancellationInfoACH')
+data.setCell(2, 3, 155957);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ccTestCase7Execution')
+data.setCell(3, 2, 'TestCases.ACH.VerifyAmountAndDateFieldsACH')
+data.setCell(3, 3, 146526);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ccTestCase7Execution')
+data.setCell(4, 2, 'TestCases.ACH.DeleteExistingInstrumentACH')
+data.setCell(4, 3, 141453);
+window.suiteTableData['BASuite']= { tableData: data, tableDiv: 'times-div-BASuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <div id="times-div-BASuite">
+              </div> <!-- times-div-BASuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BASuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.ACH.DeleteExistingInstrumentACH</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(FireFox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ccTestCase7Execution</span>
+                <span class="method-start">48415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ccTestCase7Execution status=SUCCESS method=DeleteExistingInstrumentACH.ccTestCase7E...)</span>
+                <span class="method-start">189869 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.ACH.CheckTermsAndCondnDtlsInACHPymt</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(FireFox)</span>
+                <span class="method-start">191728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckTermsAndCondnDtlsInACHPymt</span>
+                <span class="method-start">235137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testCheckTermsAndCondnDtlsInACHPymt status=SUCCESS method=CheckTermsAndCondnDtlsInA...)</span>
+                <span class="method-start">427387 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.ACH.VerifyCancellationInfoACH</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(FireFox)</span>
+                <span class="method-start">434232 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyCancellationInfoACH</span>
+                <span class="method-start">490963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testVerifyCancellationInfoACH status=SUCCESS method=VerifyCancellationInfoACH.testV...)</span>
+                <span class="method-start">646920 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.ACH.VerifyAmountAndDateFieldsACH</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(FireFox)</span>
+                <span class="method-start">647138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ccTestCase7Execution</span>
+                <span class="method-start">703775 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ccTestCase7Execution status=SUCCESS method=VerifyAmountAndDateFieldsACH.ccTestCase7...)</span>
+                <span class="method-start">850301 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.ACH.VerifyACHConvenienceFeeInAllPages</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(FireFox)</span>
+                <span class="method-start">850504 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testVerifyACHConvenienceFeeInAllPages</span>
+                <span class="method-start">897382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testVerifyACHConvenienceFeeInAllPages status=FAILURE method=VerifyACHConvenienceFee...)</span>
+                <span class="method-start">1064967 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

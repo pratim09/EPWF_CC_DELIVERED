@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [CCSUITE]" parallel="methods">
+  <parameter name="browser" value="FireFox"/>
+  <test name="CCTest(failed)" parallel="methods">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="TestCases.CreditCard.VerifyPaymentWithSaveCheckCC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyPaymentWithSave"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.CreditCard.VerifyPaymentWithSaveCheckCC -->
+    </classes>
+  </test> <!-- CCTest(failed) -->
+</suite> <!-- Failed suite [CCSUITE] -->
